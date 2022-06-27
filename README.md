@@ -10,7 +10,7 @@
 url = jdbc:mysql://localhost:3306/springbootdemo
 
 БД имеет две таблицы : participants и winners, каждая из которых имеет 4 поля:
-1)id - bigint primary key
-2)first_name - varchar(256)
-3)age - int
-4)city - varchar(256)
+1)id - bigint primary key auto increment;
+2)first_name - varchar(256);
+3)age - int;
+4)city - varchar(256);
